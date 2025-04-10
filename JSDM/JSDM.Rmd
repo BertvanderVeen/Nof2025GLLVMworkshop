@@ -134,18 +134,18 @@ What induces covariation between species?
 \column{0.5\textwidth}
 
 \begin{figure}
-\includegraphics[scale=0.5]{Pollock_et_al_fig1b.png}
+\includegraphics[height=25mm]{Pollock_et_al_fig1b.png}
 \caption{\footnotesize Pollock et al. (2015, fig. 1)}
 \end{figure}
 \end{columns}
 \begin{columns}
 \column{0.5\textwidth}
 \begin{figure}
-\includegraphics[scale=0.5]{Pollock_et_al_fig1a.png}
+\includegraphics[height=25mm]{Pollock_et_al_fig1a.png}
 \end{figure}
 \column{0.5\textwidth}
 \begin{figure}
-\includegraphics[scale=0.5]{Pollock_et_al_fig1c.png}
+\includegraphics[height=25mm]{Pollock_et_al_fig1c.png}
 \end{figure}
 \end{columns}
 
@@ -194,7 +194,7 @@ outbox/.style = {rectangle, draw=red, densely dashed, rounded corners,
 \centering
 
 \begin{figure}
-\includegraphics[scale=0.6]{Ovaskainen.png}
+\includegraphics[height = 60mm]{Ovaskainen.png}
 \caption{Figure from Ovaskainen et al. (2017)}
 \end{figure}
 
