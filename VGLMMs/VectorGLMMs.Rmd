@@ -1,5 +1,5 @@
 ---
-title: "Generalised Linear (Mixed) Models"
+title: "Mixed-effects models"
 subtitle: "for data of multiple species"
 institute: "Department of Mathematical Sciences, NTNU"
 author: "Bert van der Veen"
@@ -110,12 +110,6 @@ Instead of a focus on data, we consider the \textit{data generating process}
 - Work out distribution of the estimates
   - And find the "best" estimate
 - Conclude if our answer is robust for the population
-
-# Collecting data
-
--maybe make this about data properties
-- we can design the ideal dataset and it would always give us the correct answer
-- sometimes, things don't work out so well and there are properties that "hide" the true ecological process
 
 ## Data collection
 
@@ -487,7 +481,6 @@ long$Species <- factor(long$Species,
 ```
 
 \normalsize
-
 
 ## Visually inspect the data: categorical covariate
 

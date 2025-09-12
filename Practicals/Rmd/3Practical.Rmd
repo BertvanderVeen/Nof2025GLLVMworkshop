@@ -59,7 +59,7 @@ Repeatedly re-running the model essentially what the `n.init` argument does in t
 ```{r, cache = TRUE, warning=FALSE, message=FALSE}
 library(gllvm)
 TMB::openmp(parallel::detectCores()-1, autopar = TRUE, DLL = "gllvm")
-model1  <- gllvm(y = Y, num.lv = 2, family = "orderedBeta", n.nit = 10)
+model1  <- gllvm(y = Y, num.lv = 2, family = "orderedBeta", n.nit = 1, disp.formula = rep(1,ncol(Y)))
 ```
 
 Everything from the first two practicals still applies: we can include random effects in `formula` or `row.eff` if we wish, we can fit the models in parallel or speed them up using the same tricks. We can visualize species associations via `corrplot` and `getResidualCor`. The latter are usually not our focus for ordination; instead we make an ordination diagram:
